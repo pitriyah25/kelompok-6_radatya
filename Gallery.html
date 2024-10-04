@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="heroes.css">
+    <link rel="stylesheet" href="css/features.css"
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery</title>
+</head>
+<body>
+  <style>
+    .overlay-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0, 0, 0.5);
+  z-index: 1;
+}
+  </style>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pt.Treatment & SPA Care</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+             <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Galeri</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="sertifikasi.html">Sertifikasi</a>
+             <li class="nav-item">
+              <a class="nav-link" href="login.html">Logout</a>
+             </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir Navbar-->
+
+      <!--Carousel-->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+          <img src="img/7635545.jpg" style="width: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white">
+                <h1>Gallery Perusahaan Kami</h1>
+                <p>Silahkan menyaksikan</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Beranda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/7564615.jpg" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-dark">
+                <h1></h1>
+                <p></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Klik Disini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/4727198.jpg" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white">
+                <h1></h1>
+                <p></p>
+                <p><a class="btn btn-lg btn-primary" href="Gallery.html">Galeri</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Akhir Corousel-->
+
+      <!--Galery-->
+<section class="galery">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h1>Gallery Perusahaan</h1>
+        <hr>
+      </div>
+    </div>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="img/spa1.jpg" alt="Gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">Langkah pertama kali kami melakukan Treatment</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="img/spa2.jpg" width="100%" height="auto" alt="gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">Langkah selanjutnya yang kami lakukan adalah memberikan sedikit cream herbal
+                  dan tidak banyak mengandung Mercuri sehingga dapat menyebabkan kulit anda rusak.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/spa3.jpg" width="100%" height="100%" alt="Gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">Ini gambaran  langkah ketiga perusahaan kami </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/spa4.jpeg" alt="Gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">Langkah selanjutnya, adalah facial, langkah ini 
+                  bertujuan untuk mengurangi flek hitam pada wajah anda.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/spa5.jpg" alt="Gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">Selanjutnya, kami menggunakan mask wash herbal dengan bertujuan mengencangkan kuit pada wajah.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/spa6.jpg" width="120%" height="auto" alt="Gambar Gallery">
+              <div class="card-body">
+                <p class="card-text">langkah terakhir ini berfungsi menghilangkan komedo pada sela-sela hidung anda
+                  dan mengecilkan pori-pori anda.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/iki oil skincare.jpg" width="100%" height="auto" alt="">
+              <div class="card-body">
+                <p class="card-text">Perusahaan kami juga menyediakan OIL COCO untuk merawat seluruh tubuh dan wajah anda.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SKINCAre.jpg" width="100%" height="auto" alt="">
+              <div class="card-body">
+                <p class="card-text">Produk skincare kami juga menggunakan bahan-bahan alami dengan menambah sedikit Glutation.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/kosmetik (2).jpg" width="100%" height="140%" alt="">
+              <div class="card-body">
+                <p class="card-text">Kosmetik buatan perusahaan kami juga dari bahan alami agar wajah tidak nampak lebih menua.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+      <!-- Akhir Galery-->
+
+      <!-- Footer-->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2017-2021 Company,Inc. Privacy.Terms</p>
+        </footer>
+      </div>
+  
+      <!-- Akhir Footer-->
+
+      <!--About-->
+
+      <!---->
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>
